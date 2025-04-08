@@ -1,0 +1,685 @@
+/* Reset global margin, padding, and box-sizing */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Home section styles */
+  .home {
+	width: 100%;
+	display: flex;
+	justify-content:center;  /* Horizontally centers content */
+	align-items: center;      /* Vertically centers content */
+	padding: 60px 20px;
+  }
+  
+  .home-items {
+	display: flex;
+	justify-content:baseline;  /* Centers the content horizontally within the .home-items */
+	align-items: center;      /* Centers the content vertically */
+	width: 100%;
+	max-width: 1200px;
+	margin: 40px 60px; /* Optional: limits the max width of home-items */
+  }
+  
+  .row {
+	display: flex;
+	justify-content: center;  /* Centers columns inside the row */
+	width: 100%;
+  }
+  
+  .col-sm-8 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 1%;
+	margin-top: 40px;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+	width: 80%;
+	margin: auto;
+  }
+  
+  .icons a {
+	color: #070707;
+  }
+  h4{
+	color: #185519;
+  }
+  
+  hr {
+	background-color: #ebebeb;
+	/* margin: 20px 0; */
+  }
+
+  /* button design */
+  #btn {
+	background-color: #3ecd5e;
+	color: white;
+	margin-top: 20px;
+  }
+  #btn:hover{
+	background-color: #65696c;
+	color: #f3f3f3;
+  transform: translateY(-3px);
+  }
+  #btn-1 {
+    background-color:  #0077b5 ;
+	color: white;
+	margin-top: 20px;
+  }
+  
+  #btn-1:hover {
+    background-color: #11597f; /* Lighter LinkedIn blue on hover */
+    border-color: #00a0dc;
+    color: white;
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+  
+  #btn-1:active {
+    transform: translateY(1px); /* Button depression effect on click */
+  }
+  
+    /* button design */
+.title-logo{
+  font-size: 45px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.animation a h2{
+  color: #000;
+  font-size: 35px;
+}
+/* navbar end */
+i{
+	padding: 7px;
+	font-size: 20px;
+  }
+.ic{
+	 width: 30%;
+   
+  }
+  .icons a{
+	 color: #070707;
+  }
+
+  @media screen and (min-width:1600px) {
+    #img{
+		margin-left: 60px;
+	}
+	
+}
+
+.auto-type{
+	color: #185519;
+}
+span{
+	color: #3ecd5e;
+}
+#copy{
+    margin-top: 60px;
+	text-align: center;
+}
+nav-hr{
+	background-color: #0080ff;
+	color: #0080ff;
+}
+#i-am{
+ font-size: 19px;
+}
+
+
+  /* FOOTER SECTION */
+ 
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease; }
+	a, a:hover {
+	  text-decoration: none !important; }
+  
+  .footer-16371 {
+	padding: 7rem 0;
+	font-family: "Poppins", sans-serif; }
+	.footer-16371 .footer-site-logo {
+	  text-align: center;
+	  font-size: 2rem;
+	  font-weight: 900; }
+	  .footer-16371 .footer-site-logo a {
+		color: #232323; }
+	.footer-16371 .nav-links {
+	  padding: 0;
+	  margin: 0; }
+	  .footer-16371 .nav-links li {
+		display: inline-block; }
+		.footer-16371 .nav-links li a {
+		  padding: 10px;
+		  color: #000; }
+		  .footer-16371 .nav-links li a:hover {
+			color: #3ecd5e; }
+	.footer-16371 .social h3 {
+	  font-weight: bold;
+	  font-size: 18px;
+	  color: #000; }
+
+
+      
+/* experience section start from here */
+.skill-icon{
+           display: flex;
+           margin: auto;
+           text-align: center;
+           align-items: center;
+      }
+ .skill-icon i{
+    font-size: 25px;
+ }
+
+/* Skill */
+.programming-list{
+    font-size: 20px;
+}
+ul ul li{
+   margin-left: 40px;
+   text-decoration: none;
+   list-style-type: none;
+}
+.project-tools li{
+    list-style-type: disc;
+   
+}
+.frameworks-library li{
+    list-style-type:disc;
+}
+.ml-dl li{
+    list-style-type:disc;
+}
+.soft-skills li{
+    list-style-type: disc;
+}
+ h6 a{
+    text-decoration: underline;
+ }
+
+
+ /* form control */
+  .content {
+    padding: 7rem 0; }
+  
+  #form-h2{
+    font-size: 3.5rem;
+    font-weight: 700; }
+  
+  .form-h3 {
+    font-size: 2rem;
+    font-weight: 700; }
+  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  .form-control {
+    height: 55px; }
+  
+  form.border-right {
+    padding-right: 6rem !important; }
+    @media (max-width: 991.98px) {
+      form.border-right {
+        padding-right: 0 !important;
+        border-right: none !important; } }
+  
+  label.error {
+    font-size: 12px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: #B90B0B; }
+  
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
+  
+
+ /*  certificate sectin */
+
+.container-certificate {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Space out the items */
+  gap: 20px; /* Optional: control space between items */
+  padding: 10px; /* Optional: add some padding to container */
+}
+
+/* Course item container */
+.ag-courses-item_link {
+  position: relative;
+  width: 48%; /* Set to 48% for two items side by side */
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Space between rows if wrapped */
+}
+
+/* Hover effect on the course item */
+.ag-courses-item_link:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
+}
+
+/* Title styling for the course item */
+.ag-courses-item_title {
+  padding: 20px;
+  z-index: 2;
+}
+
+.ag-courses-item_title h6 {
+  color: #0077b5;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.ag-courses-item_title h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #333;
+}
+
+/* Date and institution information styling */
+.ag-courses-item_date-box {
+  padding: 20px;
+  font-size: 1rem;
+  color: #555;
+  z-index: 2;
+  background-color: #f9f9f9;
+  border-top: 1px solid #f1f1f1;
+}
+
+.ag-courses-item_date-box p {
+  margin-top: 10px;
+}
+
+.ag-courses-item_date {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Media query to stack items on smaller screens */
+@media (max-width: 768px) {
+  .ag-courses-item_link {
+    width: 100%; /* Make items full width on small screens */
+  }
+}
+
+
+/* Button inside anchor tag styling */
+.btn-inside {
+  padding: 10px 20px;
+  background-color: #0077b5; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from link */
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-inside:hover {
+  background-color: #0b3c52; 
+  color: #f1f1f1;/* Darker blue on hover */
+}
+
+
+/* Button active effect (when clicked) */
+.btn-inside:active {
+  background-color: #005f8e; /* Darker LinkedIn blue on click */
+}
+
+
+
+/* project-Research ideas */
+.research-ideas{
+  margin: auto;
+  text-align: center;
+}
+
+/* education section */
+#edu_details {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+#edu_details:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card__body {
+  padding: 10px 15px;
+}
+
+.card__body h6 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.card__body h6 a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.card__body h6 a:hover {
+  color: #f05684;
+  text-decoration: underline;
+}
+
+.card__body p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.card__body hr {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+/* Tag Styles */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.tag-blue {
+  background-color: #3498db;
+}
+
+.tag-brown {
+  background-color: #8e44ad;
+}
+
+.tag-re {
+  background-color: #e74c3c;
+}
+
+/* Optional: Section Header */
+.edu {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #333;
+  font-weight: 700;
+  position: relative;
+}
+
+.edu::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: #f05684;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+/* education section end*/
+
+.skill{
+  margin: auto;
+}
+
+#boxes_skill {
+  background-color: #eef2f6;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0px;
+  transition: transform 0.3s ease;
+}
+
+#boxes_skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+#boxes_skill h5 {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#boxes_skill ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#boxes_skill ul ul {
+  padding-left: 20px;
+}
+
+#boxes_skill li {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+/* description box of all section */
+#description_box {
+  background-color: #ffffff; /* Clean white background */
+  color: #333333; /* Dark grey text for readability */
+  border-radius: 12px;
+  padding: 35px 30px;
+  border-left: 6px solid #ffd650; /* Soft coral left border for a pop of color */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#description_box p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #3e3e3e; /* Medium grey for the text */
+  margin-bottom: 20px;
+}
+
+#description_box h6 {
+  font-size: 1rem;
+  color: #777777; /* Light grey for secondary text */
+}
+
+#description_box a {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 2px solid #ffd650;
+  background-color: transparent;
+  color: #ffd650;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#description_box a:hover {
+  background-color: #ffd650;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 127, 80, 0.3);
+}
+
+/* Hover effect for the box */
+#description_box:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+/* description box of all section ends*/
+
+/* end to end project */
+.custom-card {
+  background: #00a0dc;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  max-width: 570px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #ebe8e8;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.card-block p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.btn-read {
+  display: inline-block;
+  background-color: #0077b5;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-read:hover {
+  background-color: #045b8a;
+  color: white;
+}
+/* big cards */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-block-big {
+  padding: 40px 30px;
+}
+
+.card-title-big {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.btn-primary {
+  background-color: #6366f1;
+  border: none;
+  padding: 10px 22px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5;
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
+}
+
+.video_chatbot{
+  padding: 10px;
+}
+b{
+  color:#185519;
+}
+/* end to end project ends*/
+
+/* research interest */
+.research {
+  background: linear-gradient(90deg, #f0f4ff, #e6ecff);
+  padding: 20px 25px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.R_span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #004aad;
+  margin-right: 8px;
+}
+
+/* research interest */
